@@ -1,0 +1,107 @@
+/* ตั้งค่าพื้นฐาน */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f4fb; /* สีม่วงอ่อน */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ตกแต่งส่วนหัว */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #6a5f7d; /* สีม่วงเข้ม */
+}
+
+/* ปุ่ม */
+a,
+button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #9b7ec6; /* สีม่วงกลาง */
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  float: right; /* จัดตำแหน่งปุ่มไปด้านขวา */
+}
+
+a:hover,
+button:hover {
+  background-color: #7b629e; /* สีม่วงเข้มขึ้น */
+}
+
+/* ตาราง */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fdfcfe; /* สีพื้นขาวม่วงอ่อน */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #9b7ec6; /* สีม่วงกลาง */
+  color: #fff;
+  text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+  background-color: #f3ebf7; /* สีม่วงอ่อน */
+}
+
+table tr:hover {
+  background-color: #e6d8f0; /* สีม่วง hover */
+}
+
+/* ฟอร์ม */
+form {
+  width: 80%; /* ปรับความกว้างให้ยาวขึ้น */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fdfcfe; /* สีม่วงขาว */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form input,
+form textarea,
+form button {
+  width: calc(100% - 20px);
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+form button {
+  width: auto;
+  background-color: #dad347; /* สีม่วงกลาง */
+}
+
+form button:hover {
+  background-color: #e2e0e4; /* สีม่วงเข้มขึ้น */
+}
+
+/* ลิงก์ */
+a {
+  color: #dad347; /* สีม่วงกลาง */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #f8f6fb; /* สีม่วงเข้มขึ้น */
+}
